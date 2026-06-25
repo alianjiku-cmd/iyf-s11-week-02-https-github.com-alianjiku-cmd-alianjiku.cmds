@@ -49,7 +49,9 @@
     box-sizing: border-box;
 }
 
- <Base Typography >
+
+**Base Typography** 
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -81,6 +83,11 @@ h5 {
 
 h6 {
     font-size: 16px;
+
+
+
+
+
 
 
 
@@ -160,6 +167,65 @@ h6 {
 
 ~~My typography system for my portfolio.~~
 
+**1.Reset default styles:**
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
+**2.Set base typography:**
 
+/* Base Typography */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+}
+
+**3. Style headings:**
+
+/* =========================
+   HEADINGS
+========================= */
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
