@@ -41,4 +41,42 @@ footer {
 }
 
 
+**Exercise 1: Box Model Visualization Create 4 boxes :**
+*step 1. I added <link rel="stylesheet" href="styles.css"> in the index.html <head>as shown below:*
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alice-Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Alice</h1>
+    </header>
+
+    <main>
+        <p>Hi, I am a student.</p>
+
+        <img
+            src="https://i.ebayimg.com/images/g/RGwAAOSwcd9nSlvf/s-l1600.webp"
+            alt="A profile image"
+        >
+
+        <section>
+            <h2>My Hobbies</h2>
+            <p>I like playing football and basketball.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Alice. All rights reserved.</p>
+    </footer>
+
+</body>
+
+**Step 2: I Created styles.css**
