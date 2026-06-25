@@ -163,6 +163,7 @@ h6 {
 </html>
 
 
+
 **Task 3.3: Typography System**
 
 ~~My typography system for my portfolio.~~
@@ -187,6 +188,7 @@ body {
     color: #333;
     padding: 20px;
 }
+
 
 **3. Style headings:**
 
@@ -229,3 +231,6 @@ h6 {
     font-weight: 400;
     margin-bottom: 20px;
 }
+
+**#Task 3.4: Color Scheme**
+
