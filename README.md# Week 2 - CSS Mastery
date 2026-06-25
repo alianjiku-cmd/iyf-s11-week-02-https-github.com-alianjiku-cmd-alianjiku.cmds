@@ -1,2 +1,44 @@
-# iyf-s11-week-02-https-github.com-alianjiku-cmd-alianjiku.cmds
-CSS Mastery assesssment
+
+**Week 2 Assignment - CSS Mastery: Responsive Portfolio Website**
+
+**Lesson 3 Tasks**
+
+**#Task 3.1: CSS Setup & Basic Styling *
+
+(1.) Create a styles.css file and link it to your portfolio pages.
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1 {
+}
+
+h2 {
+    color: darkgreen;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 300px;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
