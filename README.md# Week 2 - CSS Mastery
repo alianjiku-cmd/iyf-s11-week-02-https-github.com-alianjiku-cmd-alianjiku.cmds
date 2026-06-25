@@ -2,46 +2,8 @@
 **Week 2 Assignment - CSS Mastery: Responsive Portfolio Website**
 
 **Lesson 3 Tasks**
-
 **#Task 3.1: CSS Setup & Basic Styling *
 
-(1.) Create a styles.css file and link it to your portfolio pages.
-
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    padding: 20px;
-}
-
-h1 {
-}
-
-h2 {
-    color: darkgreen;
-    margin-top: 20px;
-}
-
-img {
-    max-width: 300px;
-    width: 100%;
-    margin-top: 15px;
-    border-radius: 10px;
-}
-
-footer {
-    margin-top: 30px;
-    text-align: center;
-}
-
-
-**Exercise 1: Box Model Visualization Create 4 boxes :**
 *step 1. I added <link rel="stylesheet" href="styles.css"> in the index.html <head>as shown below:*
 
 <!DOCTYPE html>
@@ -79,4 +41,52 @@ footer {
 
 </body>
 
-**Step 2: I Created styles.css**
+**Step 2: I Created styles.css as illustrated below**
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ <Base Typography >
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+}
+<headings>
+h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+
+h6 {
+    font-size: 16px;
+
+
+Exercise 2: Debug the Layout Fix this broken CSS (the boxes should be 300px wide total):/* This box ends up 340px wide - why? Fix it! */
+.broken-box {
+    width: 300px;
+    padding: 20px;
+    border: none;
+}
+
