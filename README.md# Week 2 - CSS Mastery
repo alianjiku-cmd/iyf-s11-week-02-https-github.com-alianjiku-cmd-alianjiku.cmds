@@ -1,6 +1,6 @@
-# Week 2 CSS Mastery Portfolio
+**# Week 2 CSS Mastery Portfolio**
 
-## Student Information
+## *Student Information*
 
 **Name:** Alice Wanjiku
 
@@ -58,24 +58,24 @@ The portfolio includes:
 
 Alice Wanjiku
 
-**Task 3.1 **
-I competed it by including
-styles.css
+Week 2: CSS Mastery
 
-linked inside each page
-Includes
-. Css rest
-. Google fonts
-. Base topgrapgy
-. Heading styles
- 
+**Task 3.1 **
+
+ ## Week 2 Tasks Completed
+
+### Task 3.1 – CSS Setup & Basic Styling
+- Created and linked `styles.css`.
+- Added CSS reset.
+- Applied Google Fonts.
+- Styled headings and body text.
+
+
 This is the css.html
 
 /*=========================
     CSS RESET
 ==========================*/
-
-
 *{
     margin:0;
     padding:0;
@@ -232,5 +232,281 @@ outline-offset:2px;
 }
 
 
+**### Task 3.2 – Box Model Mastery**
+- *Built box-model-practice.html.*
+- *Demonstrated content, padding, border, and margin.*
+- *Created a reusable card component.*
+ 
+**THIS IS MY box-model-practice.html**
+        
+*{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
 
+        body{
+            font-family:Arial, sans-serif;
+            background:#f8fafc;
+            color:#1e293b;
+            padding:40px;
+            line-height:1.6;
+        }
 
+        h1,h2{
+            text-align:center;
+            margin-bottom:20px;
+        }
+
+        section{
+            margin-bottom:60px;
+        }
+
+        /* =========================
+        BOX MODEL VISUALIZATION
+        ========================= */
+
+        .box-container{
+            display:flex;
+            flex-wrap:wrap;
+            gap:20px;
+            justify-content:center;
+        }
+
+        .box{
+
+            width:220px;
+
+            padding:20px;
+
+            border:5px solid #2563eb;
+
+            margin:20px;
+
+            background:#bfdbfe;
+
+            text-align:center;
+
+        }
+
+        /* =========================
+        BROKEN BOX (FIXED)
+        ========================= */
+
+        .broken-box{
+
+            width:300px;
+
+            padding:20px;
+
+            border:2px solid gray;
+
+            background:white;
+
+            margin:auto;
+
+            text-align:center;
+
+        }
+
+        /* =========================
+        CARD COMPONENT
+        ========================= */
+
+        .card{
+
+            width:300px;
+
+            margin:auto;
+
+            border:1px solid gray;
+
+            border-radius:10px;
+
+            overflow:hidden;
+
+            background:white;
+
+            box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+        }
+
+        .card img{
+
+            width:100%;
+
+            display:block;
+
+        }
+
+        .card-content{
+
+            padding:20px;
+
+        }
+
+        .card h3{
+
+            margin-bottom:15px;
+
+        }
+
+        .card p{
+
+            margin-bottom:20px;
+
+        }
+
+        .button{
+
+            display:inline-block;
+
+            background:#2563eb;
+
+            color:white;
+
+            padding:10px 20px;
+
+            text-decoration:none;
+
+            border-radius:6px;
+
+        }
+
+        .button:hover{
+
+            background:#1d4ed8;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>CSS Box Model Practice</h1>
+
+<!-- =========================
+    EXERCISE 1
+========================= -->
+
+<section>
+
+<h2>Exercise 1: Box Model Visualization</h2>
+
+<div class="box-container">
+
+<div class="box">
+
+<h3>Content</h3>
+
+<p>
+The blue area represents the content inside the box.
+</p>
+
+</div>
+
+<div class="box">
+
+<h3>Padding</h3>
+
+<p>
+Padding creates space between the content and the border.
+</p>
+
+</div>
+
+<div class="box">
+
+<h3>Border</h3>
+
+<p>
+The border surrounds the padding and content.
+</p>
+
+</div>
+
+<div class="box">
+
+<h3>Margin</h3>
+
+<p>
+Margin creates space outside the border between boxes.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+EXERCISE 2
+========================= -->
+<section>
+
+<h2>Exercise 2: Broken Box (Fixed)</h2>
+
+<div class="broken-box">
+
+<p>
+
+This box is exactly <strong>300px wide</strong> because
+the CSS reset uses:
+
+</p>
+
+<p>
+
+<code>box-sizing: border-box;</code>
+
+</p>
+
+<p>
+
+Padding and border are included inside the width.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- =========================
+     EXERCISE 3
+========================= -->
+
+<section>
+
+<h2> Card Component</h2>
+
+<div class="card">
+
+<img src="https://picsum.photos/300/180" alt="Card Image">
+
+<div class="card-content">
+
+<h3>Learning CSS</h3>
+
+<p>
+
+This reusable card demonstrates the CSS Box Model using
+padding, borders, margins and a responsive image.
+
+</p>
+
+<a href="#" class="button">
+
+Learn More
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>
