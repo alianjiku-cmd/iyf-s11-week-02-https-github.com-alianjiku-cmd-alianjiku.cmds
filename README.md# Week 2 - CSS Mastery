@@ -369,10 +369,14 @@ section {
 
 
 **##Lesson 4 Tasks**
+
 **##Task 4.1: Flexbox Layout **
+
 I completed all the 24 levls
-Exercise 1.Navigation bar
-features
+
+Exercise 1. Navigation bar
+
+*features*
 -Logo on the left
 -Navigation links on the right
 -Vertically centered
@@ -406,6 +410,7 @@ Note:Uses Flexbox for layout.
 -Styled button
 -Footer
 
+**HERE IS MY STLE.CSS WITH ALL REQUIRED FEATURES**
 /* =========================
    COLOR SYSTEM
 ========================= */
@@ -566,5 +571,164 @@ section {
 .muted {
     color: var(--color-muted);
 }
+
+
+**HERE IS MY INDE.HTML PORTFOLIO**
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alice Wanjiku | Home</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS File (Make sure your filename matches exactly, e.g., style.css or styles.css) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- =========================
+       FLEXBOX NAVIGATION BAR (Exercise 1)
+    ========================= -->
+    <nav class="navbar">
+        <div class="logo">Alice Wanjiku ✨</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="https://github.com/AliceWanjiku" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Student | Aspiring Web Developer</p>
+        <p>Welcome to my portfolio website where I share my learning journey and projects I have been building.</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Profile Image & Quick Intro -->
+        <section style="text-align: center;">
+            <img src="https://i.ebayimg.com/images/g/RGwAAOSwcd9nSlvf/s-l1600.webp" alt="Alice Wanjiku Profile Image" width="250" style="border-radius: 50%;">
+            <h2>Hello! I am learning web development skills.</h2>
+            <p>Visit my <a href="https://github.com/AliceWanjiku" target="_blank">GitHub Profile</a> to see my project and coding journey.</p>
+            <button>Shop Now</button>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! My name is Alice Wanjiku. I am a student who is passionate about technology and learning new skills. 
+                I am currently studying web development and building my first portfolio website using HTML and CSS, which I find 
+                so exciting and fun. I am also interested in exploring other areas such as programming, data analysis, and cybersecurity. 
+                I am eager to learn and grow as a web developer and contribute to the tech community.
+            </p>
+        </section>
+
+        <!-- Hobbies Card Row Section (Exercise 2) -->
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+            <p class="muted">Outside of my studies and coding practice, I enjoy several activities that help me learn new skills, stay active, improve my health, and have fun.</p>
+
+            <!-- This is the Parent Flex Container for our cards -->
+            <div class="card-row">
+                
+                <!-- Card 1 -->
+                <div class="hobby-card">
+                    <h3>⚽ Football</h3>
+                    <p>Football is one of my favorite sports. I enjoy playing with friends because it helps me stay active, healthy, and teaches me teamwork.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="hobby-card">
+                    <h3>🏀 Basketball</h3>
+                    <p>Basketball is another sport I enjoy. It helps improve my coordination, concentration, and communication skills while having fun.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="hobby-card">
+                    <h3>💻 Web Dev</h3>
+                    <p>I enjoy learning HTML and CSS. Building web pages helps me develop my creativity and problem-solving skills.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="hobby-card">
+                    <h3>📚 Reading</h3>
+                    <p>Reading books and educational articles helps me gain knowledge, improve my vocabulary, writing, and concentration skills.</p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="hobby-card">
+                    <h3>🎵 Music</h3>
+                    <p>I enjoy listening to music during my free time. It helps me relax, stay motivated, and improve my mood when I feel stressed.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- =========================
+       UPGRADED FOOTER LAYOUT (Exercise 3)
+    ========================= -->
+    <footer class="site-footer">
+        
+        <!-- Top Part: The 3 Columns Container -->
+        <div class="footer-columns">
+            
+            <!-- Column 1 -->
+            <div class="footer-col">
+                <h4>About Me</h4>
+                <p>Alice Wanjiku. Aspiring web developer exploring programming, data analysis, and cybersecurity.</p>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>Email: alice@example.com</p>
+                <p>Nairobi, Kenya</p>
+            </div>
+
+        </div>
+
+        <!-- Bottom Part: Centered Copyright Line -->
+        <div class="footer-copyright">
+            <p>&copy; 2026 Alice Wanjiku. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
+
+**Technologies used includes;**
+1.HTML5
+2. CSS3
+3. Flexbox
+4. css variables
+5. Google fonts
+6. Git
+7.Github
+**REPOSITORY**
+iyf-s11-week-02-alianjiku-cmd
+
+**GitHUb Username**
+alianjiku-cmd
 
 
