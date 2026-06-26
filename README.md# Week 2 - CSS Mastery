@@ -59,9 +59,22 @@ The portfolio includes:
 Alice Wanjiku
 
 **Task 3.1 **
-I competed it by including styles.css   
+I competed it by including
+styles.css
 
+linked inside each page
+Includes
+. Css rest
+. Google fonts
+. Base topgrapgy
+. Heading styles
+ 
+This is the css.html
+
+/*=========================
+    CSS RESET
 ==========================*/
+
 
 *{
     margin:0;
