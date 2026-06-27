@@ -4210,3 +4210,227 @@ select:focus{
 outline:2px solid var(--color-primary);
 outline-offset:2px;
 }
+
+
+**Lesson 4 Tasks**
+
+*Task 4.1: Flexbox Layout* 
+Exercise 1: Navigation Bar Created and responsive nav using Flexbox:
+Exercise 2: Card Row; I CreateD a row of 3 cards that are;
+-Are evenly spaced
+-Have equal heights
+-Wrap to next line on smaller screens
+
+**Exercise 3: Footer Layout**
+This section contains;
+1. About Column  
+2. Links Column
+3.Contact Column
+4. Copyright - centered
+
+HERE IS MY flexbox-layout.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4.1 - Flexbox Layout</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ==========================
+         Exercise 1 - Navigation
+    =========================== -->
+
+    <header class="navbar">
+        <div class="logo">Alice Wanjiku</div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- ==========================
+         Exercise 2 - Card Row
+    =========================== -->
+
+    <section class="cards">
+
+        <div class="card">
+            <h2>HTML</h2>
+            <p>
+                Semantic HTML improves accessibility and structure.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>CSS</h2>
+            <p>
+                Flexbox makes layouts responsive and easy to manage.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Responsive Design</h2>
+            <p>
+                Websites should work on desktops, tablets and mobile devices.
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- ==========================
+         Exercise 3 - Footer
+    =========================== -->
+
+    <footer>
+
+        <div class="footer-columns">
+
+            <div>
+                <h3>About</h3>
+                <p>Student Portfolio</p>
+            </div>
+
+            <div>
+                <h3>Links</h3>
+                <p>Home</p>
+                <p>Projects</p>
+                <p>Contact</p>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+                <p>Email:</p>
+                <p>alice@example.com</p>
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Alice Wanjiku. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
+
+
+Task 4.1: Flexbox Layout 
+**Here is my flexbox-layout.html***
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task - Flexbox Layout</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ==========================
+         Exercise 1 - Navigation
+    =========================== -->
+
+    <header class="navbar">
+        <div class="logo">Alice Wanjiku</div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- ==========================
+         Exercise 2 - Card Row
+    =========================== -->
+
+    <section class="cards">
+
+        <div class="card">
+            <h2>HTML</h2>
+            <p>
+                Semantic HTML improves accessibility and structure.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>CSS</h2>
+            <p>
+                Flexbox makes layouts responsive and easy to manage.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Responsive Design</h2>
+            <p>
+                Websites should work on desktops, tablets and mobile devices.
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- ==========================
+         Exercise 3 - Footer
+    =========================== -->
+
+    <footer>
+
+        <div class="footer-columns">
+
+            <div>
+                <h3>About</h3>
+                <p>Student Portfolio</p>
+            </div>
+
+            <div>
+                <h3>Links</h3>
+                <p>Home</p>
+                <p>Projects</p>
+                <p>Contact</p>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+                <p>Email:</p>
+                <p>alice@example.com</p>
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Alice Wanjiku. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
+
+
+
+Task 4.2: CSS Grid Layout
+It contain;
+. Photo Gallery
+.Exercise 2:  Magazine Layout 
+.ExeExercise 3: exercise 3: Project Cards Grid 
+
+
+
+
+
